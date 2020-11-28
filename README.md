@@ -5,11 +5,9 @@ Home: https://github.com/click-contrib/click-option-group
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/click-option-group-feedstock/blob/master/LICENSE.txt)
 
 Summary: Option groups missing in Click
-
-
 
 Current build status
 ====================

@@ -1,5 +1,5 @@
 {% set name = "click-option-group" %}
-{% set version = "0.5.3" %}
+{% set version = "0.5.5" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a6e924f3c46b657feb5b72679f7e930f8e5b224b766ab35c91ae4019b4e0615e
+  sha256: 78ee474f07a0ca0ef6c0317bb3ebe79387aafb0c4a1e03b1d8b2b0be1e42fc78
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 

@@ -34,6 +34,14 @@ tests:
       python_version:
         - ${{ python_min }}.*
         - "*"
+  - script:
+      - pytest
+    requirements:
+      run:
+        - pytest
+    files:
+      source:
+        - tests/
 
 about:
   summary: Option groups missing in Click

@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.5.9"
+  version: "0.5.10"
 
 package:
   name: click-option-group
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/click-option-group/click_option_group-${{ version }}.tar.gz
-  sha256: f94ed2bc4cf69052e0f29592bd1e771a1789bd7bfc482dd0bc482134aff95823
+  sha256: 22d6a7d102b4ead6a0b8601d577386d390deae91038662f2bd1d013806184ab7
 
 build:
   number: 0
